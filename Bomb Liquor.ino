@@ -34,10 +34,10 @@ int button4_value;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(button1, INPUT);
-  pinMode(button2, INPUT);
-  pinMode(button3, INPUT);
-  pinMode(button4, INPUT);
+  pinMode(button1, INPUT); //불필요
+  pinMode(button2, INPUT); //불필요
+  pinMode(button3, INPUT); //불필요
+  pinMode(button4, INPUT); //불필요
   pinMode(waterPump1, OUTPUT);
   pinMode(waterPump2, OUTPUT);
   pinMode(waterPump3, OUTPUT);
